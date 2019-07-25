@@ -79,3 +79,18 @@ input[type="name"],input[type="email"]
 .contact > .container >h2{
     margin-top:10%;
 }
+:-ms-input-placeholder  {
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+  .icon > .row >img{
+      margin-right:1%;
+  }
+  .icon .row{
+      margin-left:25%;
+  }
+  .delani{
+      text-align:center;
+  }
+ 
+  

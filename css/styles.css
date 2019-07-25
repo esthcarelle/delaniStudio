@@ -32,5 +32,16 @@ body {
     margin-top:6%;
     margin-bottom:6%;
 }
+.services{
+    background-image: url('../images/s_image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    text-align:center;
+    height:50%;
 
+}
+.whatwedo{
+    text-align:center;
+}
 

@@ -43,5 +43,29 @@ body {
 }
 .whatwedo{
     text-align:center;
+    margin-top:7%;
+    margin-bottom:10%;
 }
+.whatwedo h2{
+    margin-bottom:3%;
+}
+#hide,#hide1,#hide2{
+    display:none;
+}
+.row1 {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column */
+  .row1,
+  .row1 > .column1 {
+    padding: 8px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column1 {
+    float: left;
+    width: 25%;
+  }
+  
 

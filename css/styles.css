@@ -52,20 +52,12 @@ body {
 #hide,#hide1,#hide2{
     display:none;
 }
-.row1 {
-    margin: 8px -16px;
-  }
-  
-  /* Add padding BETWEEN each column */
-  .row1,
-  .row1 > .column1 {
-    padding: 8px;
-  }
-  
-  /* Create four equal columns that floats next to each other */
-  .column1 {
-    float: left;
-    width: 25%;
-  }
-  
-
+.portofolio{
+    text-align:center;
+}
+.portofolio > .row{
+margin-bottom:5%;
+}
+.portofolio > .row >.col-md-3{
+   margin-bottom:2%;
+}

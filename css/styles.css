@@ -4,7 +4,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
+    height: 110%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,10 +87,15 @@ input[type="name"],input[type="email"]
       margin-right:1%;
   }
   .icon .row{
-      margin-left:25%;
+      margin-left:23%;
   }
   .delani{
       text-align:center;
   }
- 
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .welcome, .about, .services,.whatwedo,.delani,.icon {
+      width: 100%;
+    }
+  }
   

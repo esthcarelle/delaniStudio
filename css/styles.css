@@ -92,10 +92,11 @@ input[type="submit"]{
     opacity: 1; /* Firefox */
   }
   .icon > .row >img{
-      margin-right:1%;
+     margin-right:2%;
   }
   .icon .row{
-      margin-left:23%;
+    margin-left:23%;
+    margin-top:5%;
   }
   .delani{
       text-align:center;
@@ -124,5 +125,7 @@ input[type="submit"]{
     border: 1px solid white;
     color:white;
   }
- 
+ ::placeholder{
+     color:white;
+ }
   

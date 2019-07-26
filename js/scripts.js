@@ -27,15 +27,13 @@ $("#hide").click(function(){
                     $("#blanks").submit(function(event){
                         var email=$("input#email").val();
                         var name=$("input#name").val();
-                        var message=$("input#message").val();
-                        if(message==null){
-                            alert("Please enter the message");
-                            
+                        var message= $.trim($("#message").val());
+                        if((name!="")&&(email!="")&&(message!="")){
+                            alert(name + " we have received your message. Thank you fro reaching out to us.")
                         }
                         else{
-                            alert( name );
+                            alert("Fill nicely the form please!");
                         }
-                     
                         event.preventDefault();
 ;
                     });

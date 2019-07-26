@@ -39,12 +39,16 @@ $("#hide").click(function(){
                         event.preventDefault();
 ;
                     });
-                    $("#img11").mouseover(function(){
-                        $("#img11 >h1").show();
+                    var element=["img11","img12","img13","img14","img15","img16","img17","img18"];
+                    element.forEach(function(blank){
+                        $("#"+blank).mouseout(function(){
+                            $("#"+blank+" >h1").hide();
 
-                    });
-                    $("#img11").mouseout(function(){
-                        $("#img11 >h1").hide();
+                        });
+                        $("#"+blank).mouseover(function(){
+                            $("#"+blank+" >h1").show();
+
+                        });
 
                     });
 

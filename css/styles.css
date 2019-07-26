@@ -109,11 +109,11 @@ input[type="submit"]{
   #serv h2{
      padding:4%;
   }
-  #img11{
+  #img11,#img12,#img13,#img14,#img15,#img16,#img17,#img18{
       position:relative;
 
   }
-  #port1{
+  #port1,#port2,#port3,#port4,#port5,#port6,#port7,#port8{
       position :absolute;
       top: 30%;
   left: 25%;
@@ -124,9 +124,5 @@ input[type="submit"]{
     border: 1px solid white;
     color:white;
   }
-  #hoverr{
-    
-    text-align:center;
-    position:relative;
-  }
+ 
   

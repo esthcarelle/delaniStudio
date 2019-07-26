@@ -116,16 +116,18 @@ input[type="submit"]{
   }
   #port1,#port2,#port3,#port4,#port5,#port6,#port7,#port8{
       position :absolute;
-      top: 30%;
-  left: 25%;
-  width:50%;
+      top: 10%;
+  left: 15%;
+  width:70%;
+  height:70%;
   display:none;
   background-color:black;
+  opacity: 0.5;
   
-    border: 1px solid white;
+    border: 2px solid white;
     color:white;
   }
  ::placeholder{
      color:white;
  }
-  
+ 

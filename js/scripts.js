@@ -39,5 +39,14 @@ $("#hide").click(function(){
                         event.preventDefault();
 ;
                     });
+                    $("#img11").mouseover(function(){
+                        $("#img11 >h1").show();
+
+                    });
+                    $("#img11").mouseout(function(){
+                        $("#img11 >h1").hide();
+
+                    });
+
                     
 });

@@ -31,6 +31,7 @@ body {
     text-align:center;
     margin-top:6%;
     margin-bottom:6%;
+    height:90%;
 }
 .services{
     background-image: url('../images/s_image.jpg');
@@ -70,14 +71,21 @@ margin-bottom:5%;
     background-size: cover;
     text-align:center;
     color:white;
+    height:90%;
 }
 input[type="name"],input[type="email"]
 {
     background: transparent;
+    color:black;
    
 }
+input[type="submit"]{
+    background-color:black;
+    color:white;
+}
+
 .contact > .container >h2{
-    margin-top:10%;
+    padding:4%;
 }
 :-ms-input-placeholder  {
     color: white;
@@ -97,5 +105,14 @@ input[type="name"],input[type="email"]
     .welcome, .about, .services,.whatwedo,.delani,.icon {
       width: 100%;
     }
+  }
+  #serv h2{
+     padding:4%;
+  }
+  #hoverr{
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+    text-align:center;
   }
   

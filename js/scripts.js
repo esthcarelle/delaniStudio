@@ -24,5 +24,20 @@ $("#hide").click(function(){
                     $("#show2").show();
                     $("#hide2").hide();
                     });
+                    $("#blanks").submit(function(event){
+                        var email=$("input#email").val();
+                        var name=$("input#name").val();
+                        var message=$("input#message").val();
+                        if(message==null){
+                            alert("Please enter the message");
+                            
+                        }
+                        else{
+                            alert( name );
+                        }
+                     
+                        event.preventDefault();
+;
+                    });
                     
 });

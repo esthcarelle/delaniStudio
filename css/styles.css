@@ -95,18 +95,19 @@ input[type="submit"]{
      margin-right:2%;
   }
   .icon .row{
-    margin-left:23%;
-    margin-top:5%;
+   padding-left:23%;
+   padding-top:5%;
+   
   }
   .delani{
       text-align:center;
   }
   @media only screen and (max-width:500px) {
     /* For mobile phones: */
-    .welcome, .about, .services,.whatwedo,.delani,.icon {
+    .welcome, .about, .services,.whatwedo,.delani,.icon,.row ,.contact,body,#img11,#img12,#img13,#img14,#img15,#img16,#img17,#img18{
       width: 100%;
     }
-  }
+}
   #serv h2{
      padding:4%;
   }

@@ -114,6 +114,17 @@ input[type="submit"]{
       position:relative;
 
   }
+  #black1,#black2,#black3,#black4,#black5,#black6,#black7,#black8{
+      position:absolute;
+      background-color:black;
+      top: 0;
+      left: 10%;
+      width:80%;
+      height:100%;
+ opacity:0.8;
+ display:none;
+
+  }
   #port1,#port2,#port3,#port4,#port5,#port6,#port7,#port8{
       position :absolute;
       top: 10%;
@@ -121,10 +132,9 @@ input[type="submit"]{
   width:70%;
   height:70%;
   display:none;
-  background-color:black;
-  opacity: 0.5;
   
-    border: 2px solid white;
+  
+    border: 3px solid white;
     color:white;
   }
  ::placeholder{

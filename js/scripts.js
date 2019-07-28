@@ -41,14 +41,22 @@ $("#hide").click(function(){
                     element.forEach(function(blank){
                         $("#"+blank).mouseout(function(){
                             $("#"+blank+" >h1").hide();
+                            $("#"+blank+" p").hide();
+
+                          
 
                         });
                         $("#"+blank).mouseover(function(){
                             $("#"+blank+" >h1").show();
+                            $("#"+blank+" >p").show();
+                           
 
                         });
-
                     });
+            
 
+                      
+
+                    
                     
 });

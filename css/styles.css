@@ -1,16 +1,18 @@
+/*front end logic*/
 .welcome{
     
     background-image: url("../images/h_img.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 110%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align:center;
     color:white;
-    width:100%;  
+    width:100%;
+    
 }
 
 html,
@@ -38,7 +40,7 @@ body {
     background-size: cover;
     color:white;
     text-align:center;
-    height:50%;
+    height:auto;
 
 }
 .whatwedo{
@@ -70,7 +72,7 @@ body {
     background-size: cover;
     text-align:center;
     color:white;
-    height:100%;
+    height:auto;
 }
 input[type="name"],input[type="email"]
 {
@@ -86,29 +88,25 @@ input[type="submit"]{
 .contact > .container >h2{
     padding:4%;
 }
-.icon > .row >img{
+  .icon > .row >img{
      margin-right:2%;
   }
-.icon .row{
-   padding-left:23%;
-   padding-top:5%; 
+  .icon .row{
+   padding-left:17%;
+   padding-top:5%;
+   
   }
-.delani{
+  .delani{
       text-align:center;
   }
-@media only screen and (max-width:500px) {
-    /* For mobile phones: */
-    .welcome, .about, .services,.whatwedo,.delani,.icon,.row ,.contact,body,#img11,#img12,#img13,#img14,#img15,#img16,#img17,#img18{
-      width: 100%;
-    }
-}
-#serv h2{
+ 
+  #serv h2{
      padding:4%;
-}
-#img11,#img12,#img13,#img14,#img15,#img16,#img17,#img18{
+  }
+  #img11,#img12,#img13,#img14,#img15,#img16,#img17,#img18{
     position:relative;
 
-}
+  }
   #black1,#black2,#black3,#black4,#black5,#black6,#black7,#black8{
     position:absolute;
     background-color:black;

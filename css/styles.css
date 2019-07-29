@@ -106,10 +106,10 @@ input[type="submit"]{
   #serv h2{
      padding:4%;
   }
-  #img11,#img12,#img13,#img14,#img15,#img16,#img17,#img18{
+#img11,#img12,#img13,#img14,#img15,#img16,#img17,#img18{
     position:relative;
 
-  }
+}
   #black1,#black2,#black3,#black4,#black5,#black6,#black7,#black8{
     position:absolute;
     background-color:black;

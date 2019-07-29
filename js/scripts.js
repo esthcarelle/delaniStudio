@@ -50,10 +50,4 @@ $(document).ready(function () {
             $("#" + blank + " >p").show();
         });
     });
-
-
-
-
-
-
 });

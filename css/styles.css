@@ -97,7 +97,7 @@ input[type="submit"]{
 .delani{
       text-align:center;
   }
-  @media only screen and (max-width:500px) {
+@media only screen and (max-width:500px) {
     /* For mobile phones: */
     .welcome, .about, .services,.whatwedo,.delani,.icon,.row ,.contact,body,#img11,#img12,#img13,#img14,#img15,#img16,#img17,#img18{
       width: 100%;

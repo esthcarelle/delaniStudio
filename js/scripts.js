@@ -40,12 +40,12 @@ $(document).ready(function(){
     var element=["img11","img12","img13","img14","img15","img16","img17","img18"];
     element.forEach(function(blank){
             $("#"+blank).mouseout(function(){
-                    $("#"+blank+" >h1").hide();
+                    $("#"+blank+" >h3").hide();
                     $("#"+blank+" p").hide();
 
             });
             $("#"+blank).mouseover(function(){
-                    $("#"+blank+" >h1").show();
+                    $("#"+blank+" >h3").show();
                     $("#"+blank+" >p").show();
             });
 });                  

@@ -1,7 +1,7 @@
-#Delani-studio
-### by **Esther Carrelle**
-##DESCRIPTION
-##studio
+#*Delani-studio
+###* by **Esther Carrelle**
+##*DESCRIPTION
+##*studio
 It is a website that shows you the work of Delani studio,has a shord description about it,what they do,some pictures of  projects they have done and a contact form through where a user can send a message.
 #SETUP INSTALLATION REQUIRED
 * Google chrome

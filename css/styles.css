@@ -86,7 +86,7 @@ input[type="submit"]{
 .contact > .container >h2{
     padding:4%;
 }
-  .icon > .row >img{
+.icon > .row >img{
      margin-right:2%;
   }
   .icon .row{
@@ -94,7 +94,7 @@ input[type="submit"]{
    padding-top:5%;
    
   }
-  .delani{
+.delani{
       text-align:center;
   }
   @media only screen and (max-width:500px) {

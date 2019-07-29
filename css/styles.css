@@ -89,10 +89,9 @@ input[type="submit"]{
 .icon > .row >img{
      margin-right:2%;
   }
-  .icon .row{
+.icon .row{
    padding-left:23%;
-   padding-top:5%;
-   
+   padding-top:5%; 
   }
 .delani{
       text-align:center;
@@ -103,9 +102,9 @@ input[type="submit"]{
       width: 100%;
     }
 }
-  #serv h2{
+#serv h2{
      padding:4%;
-  }
+}
 #img11,#img12,#img13,#img14,#img15,#img16,#img17,#img18{
     position:relative;
 

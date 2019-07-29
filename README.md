@@ -17,6 +17,7 @@ It is a website that shows you the work of Delani studio,has a shord description
 * input your name in the contact section
 * input your email after your name
 * input the message you want to send to us
+* click submit
 
 ## MY PROJECT LINK
 

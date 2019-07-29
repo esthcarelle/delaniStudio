@@ -1,10 +1,11 @@
+/*front end logic*/
 .welcome{
     
     background-image: url("../images/h_img.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 110%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,7 +40,7 @@ body {
     background-size: cover;
     color:white;
     text-align:center;
-    height:50%;
+    height:auto;
 
 }
 .whatwedo{
@@ -71,7 +72,7 @@ body {
     background-size: cover;
     text-align:center;
     color:white;
-    height:100%;
+    height:auto;
 }
 input[type="name"],input[type="email"]
 {
@@ -91,19 +92,14 @@ input[type="submit"]{
      margin-right:2%;
   }
   .icon .row{
-   padding-left:23%;
+   padding-left:17%;
    padding-top:5%;
    
   }
   .delani{
       text-align:center;
   }
-  @media only screen and (max-width:500px) {
-    /* For mobile phones: */
-    .welcome, .about, .services,.whatwedo,.delani,.icon,.row ,.contact,body,#img11,#img12,#img13,#img14,#img15,#img16,#img17,#img18{
-      width: 100%;
-    }
-}
+ 
   #serv h2{
      padding:4%;
   }
